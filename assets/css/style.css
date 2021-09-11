@@ -1,0 +1,31 @@
+:root {
+    --dark-success-1: #2999a6;
+    --dark-success-2: #2ea6a6;
+}
+
+/** Html Elements */
+body {
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+/** Classnames */
+
+.logo-div-responsive {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.bg-dark-success-1 {
+    background-color: var(--dark-success-1);
+}
+
+.bg-dark-success-2 {
+    background-color: var(--dark-success-2);
+}
+
+.navbar-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
